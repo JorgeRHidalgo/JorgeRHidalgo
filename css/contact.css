@@ -1,0 +1,102 @@
+.contact-vertical-padding {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-body{
+  background-color: var(--primary-color);
+  color: var(--text-color-inverse);
+}
+
+.wave_top {
+  width: 100%;
+  position: relative;
+  top: 2px;
+}
+
+.contact-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: var(--text-color-inverse);
+}
+
+.contact-pagina {
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--secundary-color);
+}
+
+.contact-company {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 5px;
+  color: var(--text-color-inverse);
+}
+
+.contac-telefono {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+  color: var(--text-color-inverse);
+}
+
+.contact-redes-sociales {
+  font-size: 15px;
+  font: weight 400;
+  margin-top: 10px;
+  color: var(--text-color-inverse);
+  text-align: center;
+}
+
+.contact {
+  padding: 25px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+
+.github-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+
+
+}
+
+.facebook-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+
+}
+
+.twitter-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+
+}
+
+.whatsapp-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+}
+
+.github-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+}
+
+.youtube-btn:hover { 
+  cursor: pointer; 
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+}
+
+
+
+
+@media (min-width: 950px) {
+ .contact-title {
+  font-size: 50px;
+ }
+}
