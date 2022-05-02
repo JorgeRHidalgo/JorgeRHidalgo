@@ -81,6 +81,16 @@
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
 }
 
+.whatsapp:hover{
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+}
+
+.whatsapp-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+}
+
 .youtube-btn:hover { 
   cursor: pointer; 
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
@@ -127,6 +137,16 @@
 .youtube-btn { 
   height: 52px;
   width: 52px;
+}
+
+.whatsapp-btn {
+  height: 52px;
+  width: 52px;
+}
+
+.telefono{
+  height: 28px;
+  width: 28px;
 }
 
 }
