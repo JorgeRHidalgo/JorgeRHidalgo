@@ -76,12 +76,7 @@
 
 }
 
-.whatsapp-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-}
-
-.github-btn:hover {
+.email-btn:hover {
   cursor: pointer;
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
 }
@@ -107,6 +102,31 @@
 
 .contac-telefono {
   font-size: 20px;
+}
+
+.github-btn {
+  width: 52px;
+  height: 52px;
+}
+
+.facebook-btn {
+  height: 52px;
+  width: 52px;
+}
+
+.twitter-btn {
+  height: 52px;
+  width: 52px;
+}
+
+.email-btn {
+  height: 52px;
+  width: 52px;
+}
+
+.youtube-btn { 
+  height: 52px;
+  width: 52px;
 }
 
 }
