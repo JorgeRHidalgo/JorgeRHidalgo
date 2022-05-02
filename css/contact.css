@@ -23,14 +23,14 @@
 }
 
 .contact-pagina {
-  font-size: 25px;
+  font-size: 18px;
   font-weight: bold;
   text-transform: uppercase;
   color: var(--secundary-color);
 }
 
 .contact-company {
-  font-size: 20px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
   margin-top: 5px;
@@ -38,18 +38,17 @@
 }
 
 .contac-telefono {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   color: var(--text-color-inverse);
 }
 
 .contact-redes-sociales {
-  font-size: 15px;
-  font: weight 400;
-  margin-top: 10px;
-  color: var(--text-color-inverse);
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1.875rem 0 0 0; 
 }
 
 .contact {
@@ -93,10 +92,21 @@
 }
 
 
-
-
 @media (min-width: 950px) {
  .contact-title {
   font-size: 50px;
  }
+
+ .contact-pagina {
+  font-size: 25px;
+}
+
+.contact-company {
+  font-size: 20px;
+}
+
+.contac-telefono {
+  font-size: 20px;
+}
+
 }
