@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .contact-vertical-padding {
   display: flex;
   flex-direction: column;
@@ -149,9 +148,8 @@
     height: 28px;
     width: 28px;
   }
-
 }
-=======
+
 .contact-vertical-padding {
   display: flex;
   flex-direction: column;
@@ -202,7 +200,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 1.875rem 0 0 0; 
+  margin: 1.875rem 0 0 0;
 }
 
 .contact {
@@ -245,18 +243,18 @@
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
 }
 
-.youtube-btn:hover { 
-  cursor: pointer; 
+.youtube-btn:hover {
+  cursor: pointer;
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
 }
 
 
 @media (min-width: 950px) {
- .contact-title {
+.contact-title {
   font-size: 50px;
- }
+}
 
- .contact-pagina {
+.contact-pagina {
   font-size: 25px;
 }
 
@@ -288,7 +286,7 @@
   width: 52px;
 }
 
-.youtube-btn { 
+.youtube-btn {
   height: 52px;
   width: 52px;
 }
@@ -304,4 +302,3 @@
 }
 
 }
->>>>>>> feb4a0fbeb7a6fae1736c1da71377e91199899bf
