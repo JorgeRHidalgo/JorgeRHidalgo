@@ -24,7 +24,9 @@ const observer = new IntersectionObserver(
       }
     });
   },
-  { rootMargin: "-50% 0px -35% 0px" }
+  {
+    rootMargin: "-50% 0px -35% 0px",
+  }
 );
 
 menuLinks.forEach((menuLink) => {
