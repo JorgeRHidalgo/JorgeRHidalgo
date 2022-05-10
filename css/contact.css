@@ -45,7 +45,9 @@
 }
 
 .contact-redes-sociales {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(8, 1.90rem);
+  grid-auto-rows: minmax(2.8rem, 2.8rem);
   align-items: center;
   justify-content: center;
   margin: 1.875rem 0 0 0;
@@ -71,6 +73,12 @@
 }
 
 .twitter-btn:hover {
+  cursor: pointer;
+  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
+
+}
+
+.in-btn:hover {
   cursor: pointer;
   filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
 
@@ -129,6 +137,11 @@
     width: 52px;
   }
 
+  .in-btn {
+    height: 52px;
+    width: 52px;
+  }
+
   .email-btn {
     height: 52px;
     width: 52px;
@@ -148,156 +161,8 @@
     height: 28px;
     width: 28px;
   }
-}
 
-.contact-vertical-padding {
-  display: flex;
-  flex-direction: column;
-}
-
-.contact-body{
-  background-color: var(--primary-color);
-  color: var(--text-color-inverse);
-}
-
-.wave_top {
-  width: 100%;
-  position: relative;
-  top: 2px;
-}
-
-.contact-title {
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 30px;
-  color: var(--text-color-inverse);
-}
-
-.contact-pagina {
-  font-size: 18px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: var(--secundary-color);
-}
-
-.contact-company {
-  font-size: 16px;
-  text-transform: uppercase;
-  font-weight: bold;
-  margin-top: 5px;
-  color: var(--text-color-inverse);
-}
-
-.contac-telefono {
-  font-size: 16px;
-  font-weight: 500;
-  margin-top: 1.25rem;
-  color: var(--text-color-inverse);
-}
-
-.contact-redes-sociales {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 1.875rem 0 0 0;
-}
-
-.contact {
-  padding: 25px;
-  max-width: 950px;
-  margin: 0 auto;
-}
-
-.github-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-
-
-}
-
-.facebook-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-
-}
-
-.twitter-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-
-}
-
-.email-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-}
-
-.whatsapp:hover{
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-}
-
-.whatsapp-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-}
-
-.youtube-btn:hover {
-  cursor: pointer;
-  filter: invert(80%) sepia(33%) saturate(980%) hue-rotate(349deg) brightness(99%) contrast(96%);
-}
-
-
-@media (min-width: 950px) {
-.contact-title {
-  font-size: 50px;
-}
-
-.contact-pagina {
-  font-size: 25px;
-}
-
-.contact-company {
-  font-size: 20px;
-}
-
-.contac-telefono {
-  font-size: 20px;
-}
-
-.github-btn {
-  width: 52px;
-  height: 52px;
-}
-
-.facebook-btn {
-  height: 52px;
-  width: 52px;
-}
-
-.twitter-btn {
-  height: 52px;
-  width: 52px;
-}
-
-.email-btn {
-  height: 52px;
-  width: 52px;
-}
-
-.youtube-btn {
-  height: 52px;
-  width: 52px;
-}
-
-.whatsapp-btn {
-  height: 52px;
-  width: 52px;
-}
-
-.telefono{
-  height: 28px;
-  width: 28px;
+  .contact-redes-sociales {
+    grid-template-columns: repeat(8, 2.80rem);
 }
 }
