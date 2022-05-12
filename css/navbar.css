@@ -25,6 +25,8 @@
 }
 
 .logo img {
+  border-style: solid;
+  border-color: rgb(120, 120, 122);
   border-radius: 50%;
 }
 

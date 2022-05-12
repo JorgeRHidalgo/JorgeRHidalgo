@@ -6,7 +6,10 @@
 
 .profile-img  { 
   width: 80%;
-  max-width: 350px;
+  max-width: 14rem;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: rgb(120, 120, 122);
 }
 
 .profile-img-section{
@@ -66,7 +69,6 @@
 
 .profile-img  { 
   width: 100%;
-  max-width: 350px;
   transform: scaleX(-1);
 }
 
